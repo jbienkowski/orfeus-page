@@ -13,7 +13,7 @@ export default function Home() {
 				ORFEUS Observatories & Research Facilities for European Seismology
 			</h2>
 
-			<div className="bg-gray-100 p-4 rounded-md shadow-md mb-4">
+			<div className="p-4 rounded-md shadow-md">
 				<p>
 					ORFEUS is the non-profit foundation to coordinate and promote digital,
 					broadband seismology in the European-Mediterranean area.
