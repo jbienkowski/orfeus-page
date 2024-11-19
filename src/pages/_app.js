@@ -19,9 +19,9 @@ function OrfApp({ Component, pageProps }) {
             <SidebarTile text="ORFEUS encourages the adoption of open and FAIR seismic data polices." />
             <SidebarTile text="ORFEUS supports the AdriaArray initiative. " />
 
-            <SidebarLink href="#">ORFEUS more information</SidebarLink>
-            <SidebarLink href="#">ORFEUS news and announcements</SidebarLink>
-            <SidebarLink href="#">EIDA Issue Tracker</SidebarLink>
+            <SidebarLink href="#">More information</SidebarLink>
+            <SidebarLink href="#">Forum</SidebarLink>
+            <SidebarLink href="#">Issue Tracker</SidebarLink>
           </div>
           <div id="current_page" className="w-4/5">
             <Breadcrumb />
