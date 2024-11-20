@@ -17,7 +17,7 @@ function OrfApp({ Component, pageProps }) {
         </div>
         <div id="orfeus_content" className="mb-auto flex justify-center">
           <div className="flex w-3/4">
-            <div id="sidebar" className="w-1/4 mx-5 text-gray-500">
+            <div id="sidebar" className="w-1/4 mx-10 text-gray-500">
               <SidebarTile text="ORFEUS is the European Infrastructure for seismic waveform data in EPOS ." />
               <SidebarTile text="ORFEUS services are integrated in the EPOS Data Portal." />
               <SidebarTile text="ORFEUS encourages the adoption of open and FAIR seismic data polices." />
