@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import NavbarLink from "@/components/NavbarLink";
+import OrfeusText from "./OrfeusText";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className={`text-white font-bold text-3xl`}>
-              <span style={{ color: "red" }}>O</span>rfeus
+              <OrfeusText/>
             </Link>
           </div>
           <div className="hidden md:block">
@@ -27,10 +28,13 @@ export default function Navbar() {
                 Home
               </NavbarLink>
               <NavbarLink href="/about" activeClass={activeClass}>
-                About
+                Organization
               </NavbarLink>
-              <NavbarLink href="/contact" activeClass={activeClass}>
-                Contact
+              <NavbarLink href="/services" activeClass={activeClass}>
+                Services
+              </NavbarLink>
+              <NavbarLink href="/other" activeClass={activeClass}>
+                Other
               </NavbarLink>
             </div>
           </div>

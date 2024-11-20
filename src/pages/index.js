@@ -1,6 +1,7 @@
 // src/pages/index.js
 import React from "react";
 import Head from "next/head";
+import OrfeusText from "@/components/OrfeusText";
 
 export default function Home() {
 	return (
@@ -8,7 +9,7 @@ export default function Home() {
 			<Head>
 				<title>ORFEUS - Home</title>
 			</Head>
-			<h1>ORFEUS</h1>
+			<h1><OrfeusText/></h1>
 			<h2>
 				ORFEUS Observatories & Research Facilities for European Seismology
 			</h2>
