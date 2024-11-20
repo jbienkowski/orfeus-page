@@ -27,7 +27,7 @@ export default function Navbar() {
               <NavbarLink href="/" activeClass={activeClass}>
                 Home
               </NavbarLink>
-              <NavbarLink href="/about" activeClass={activeClass}>
+              <NavbarLink href="/organization" activeClass={activeClass}>
                 Organization
               </NavbarLink>
               <NavbarLink href="/services" activeClass={activeClass}>
