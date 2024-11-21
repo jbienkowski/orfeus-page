@@ -11,14 +11,14 @@ import "../styles/globals.css";
 function OrfApp({ Component, pageProps }) {
   return (
     <>
-      <div class="flex flex-col h-screen justify-between">
+      <div class="flex flex-col h-screen justify-between dark:bg-gray-700 dark:text-gray-300">
         <div id="orfeus_navbar">
           <Navbar />
         </div>
-        <div id="orfeus_content" className="mb-auto flex justify-center">
+        <div id="orfeus_content" className="mb-auto flex justify-center bg-inherit">
           <div className="flex w-3/4">
-            <div id="sidebar" className="w-1/4 mx-10 text-gray-500">
-              <SidebarTile text="ORFEUS is the European Infrastructure for seismic waveform data in EPOS ." />
+            <div id="sidebar" className="w-1/4 mx-10">
+              <SidebarTile text="ORFEUS is the European Infrastructure for seismic waveform data in EPOS." />
               <SidebarTile text="ORFEUS services are integrated in the EPOS Data Portal." />
               <SidebarTile text="ORFEUS encourages the adoption of open and FAIR seismic data polices." />
               <SidebarTile text="ORFEUS supports the AdriaArray initiative. " />
@@ -35,7 +35,7 @@ function OrfApp({ Component, pageProps }) {
             </div>
           </div>
         </div>
-        <div id="orfeus_footer">
+        <div id="orfeus_footer" className="bg-inherit">
           <Footer />
         </div>
       </div>
