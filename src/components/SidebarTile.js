@@ -1,6 +1,6 @@
 // SidebarTile.js
 const SidebarTile = ({ text }) => (
-  <div className="my-5 p-4 rounded-md shadow-md text-center dark:bg-gray-800">
+  <div className="p-5 text-sm text-center">
     <p>{text}</p>
   </div>
 );

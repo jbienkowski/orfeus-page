@@ -16,18 +16,8 @@ function OrfApp({ Component, pageProps }) {
           <Navbar />
         </div>
         <div id="orfeus_content" className="mb-auto flex justify-center bg-inherit">
-          <div className="flex w-3/4">
-            <div id="sidebar" className="w-1/4 mx-10">
-              <SidebarTile text="ORFEUS is the European Infrastructure for seismic waveform data in EPOS." />
-              <SidebarTile text="ORFEUS services are integrated in the EPOS Data Portal." />
-              <SidebarTile text="ORFEUS encourages the adoption of open and FAIR seismic data polices." />
-              <SidebarTile text="ORFEUS supports the AdriaArray initiative. " />
-
-              <SidebarLink href="https://orfeus.readthedocs.io/">More information</SidebarLink>
-              <SidebarLink href="https://forum.orfeus-eu.org/">Forum</SidebarLink>
-              <SidebarLink href="https://github.com/EIDA/userfeedback">Issue Tracker</SidebarLink>
-            </div>
-            <div id="current_page" className="w-3/4">
+          <div className="w-2/3 pb-36">
+            <div id="current_page">
               <Breadcrumb />
               <div className="prose dark:prose-invert max-w-none">
                 <Component {...pageProps} />
