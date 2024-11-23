@@ -4,7 +4,7 @@ import Link from "next/link";
 import OrfeusText from "./OrfeusText";
 export default function Footer() {
   return (
-    <footer class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+    <footer class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-[15%] mx-auto">
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
         <div class="col-span-full hidden lg:col-span-3 lg:block">
           <Link
@@ -20,10 +20,10 @@ export default function Footer() {
             ORFEUS services are integrated in the EPOS Data Portal
           </p>
           <p class="mt-3 text-xs sm:text-sm text-gray-600 dark:text-neutral-400">
-          ORFEUS encourages the adoption of open and FAIR seismic data polices
+            ORFEUS encourages the adoption of open and FAIR seismic data polices
           </p>
           <p class="mt-3 text-xs sm:text-sm text-gray-600 dark:text-neutral-400">
-          ORFEUS supports the AdriaArray initiative
+            ORFEUS supports the AdriaArray initiative
           </p>
         </div>
 

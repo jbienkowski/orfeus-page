@@ -9,24 +9,22 @@ export default function Home() {
       <Head>
         <title>ORFEUS - Home</title>
       </Head>
-      <h1>
-        <OrfeusText />
-      </h1>
-      <h2>
-        Observatories & Research Facilities for European Seismology
-      </h2>
+      <div
+        class="mt-2 bg-gray-50 border border-gray-200 text-xl text-gray-600 rounded-lg p-4 dark:bg-white/10 dark:border-white/10 dark:text-neutral-400"
+        role="alert"
+        aria-labelledby="hs-soft-color-secondary-label">
+        <OrfeusText /> (Observatories & Research Facilities for European
+        Seismology) is the non-profit foundation to coordinate and promote
+        digital, broadband seismology in the European-Mediterranean area.
+      </div>
 
-      <div className="p-4 rounded-md shadow-md">
-        <p>
-          <OrfeusText /> is the non-profit foundation to coordinate and promote
-          digital, broadband seismology in the European-Mediterranean area.
-        </p>
-
-        <p>
-          <b>EIDA</b> is the European Integrated Data Archive infrastructure
-          within <OrfeusText /> to provide access to seismic waveform data in
-          European archives.
-        </p>
+      <div
+        class="mt-2 bg-gray-50 border border-gray-200 text-xl text-gray-600 rounded-lg p-4 dark:bg-white/10 dark:border-white/10 dark:text-neutral-400"
+        role="alert"
+        aria-labelledby="hs-soft-color-secondary-label">
+        <b>EIDA</b> is the European Integrated Data Archive infrastructure
+        within <OrfeusText /> to provide access to seismic waveform data in
+        European archives.
       </div>
     </>
   );

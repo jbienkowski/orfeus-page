@@ -18,7 +18,7 @@ function OrfApp({ Component, pageProps }) {
 
         {/* Main Content */}
         <main id="orfeus_content" className="flex-grow flex justify-center">
-          <div className="w-full lg:w-1/2 md:w-2/3 sm:w-3/4 pb-36">
+          <div className="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-[15%] mx-auto">
             <Breadcrumb />
             <div className="prose dark:prose-invert max-w-none">
               <Component {...pageProps} />
