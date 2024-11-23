@@ -16,7 +16,7 @@ export default function Home() {
         Observatories & Research Facilities for European Seismology
       </h2>
 
-      <div className="p-4 rounded-md shadow-md bg-g dark:bg-gray-800">
+      <div className="p-4 rounded-md shadow-md">
         <p>
           <OrfeusText /> is the non-profit foundation to coordinate and promote
           digital, broadband seismology in the European-Mediterranean area.

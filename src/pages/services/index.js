@@ -1,10 +1,10 @@
 // src/pages/index.js
 import React from 'react';
 
-export default function Other() {
+export default function Services() {
   return (
     <div>
-      <p>This is the other privacy.</p>
+      <p>This is the services page.</p>
     </div>
   );
 }

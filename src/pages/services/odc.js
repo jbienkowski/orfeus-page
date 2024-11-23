@@ -1,10 +1,10 @@
 // src/pages/index.js
 import React from 'react';
 
-export default function Services() {
+export default function Odc() {
   return (
     <div>
-      <p>This is the services page.</p>
+      <p>This is the ODC page.</p>
     </div>
   );
 }

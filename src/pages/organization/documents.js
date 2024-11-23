@@ -1,10 +1,10 @@
 // src/pages/index.js
 import React from 'react';
 
-export default function Services() {
+export default function Documents() {
   return (
     <div>
-      <p>This is the services page.</p>
+      <p>This is the documents page.</p>
     </div>
   );
 }

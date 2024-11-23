@@ -1,10 +1,10 @@
 // src/pages/index.js
 import React from 'react';
 
-export default function Organization() {
+export default function Structure() {
   return (
     <div>
-      <p>This is the organization privacy.</p>
+      <p>This is the structure page.</p>
     </div>
   );
 }

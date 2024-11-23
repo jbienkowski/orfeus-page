@@ -1,9 +1,8 @@
 // pages/_app.js
 
+import PrelineScript from "@/components/PrelineScript";
 import Navbar from "../components/Navbar";
 import Breadcrumb from "@/components/Breadcrumb";
-import SidebarTile from "@/components/SidebarTile";
-import SidebarLink from "@/components/SidebarLink";
 import Footer from "@/components/Footer";
 
 import "../styles/globals.css";
@@ -29,6 +28,7 @@ function OrfApp({ Component, pageProps }) {
           <Footer />
         </div>
       </div>
+      <PrelineScript />
     </>
   );
 }
