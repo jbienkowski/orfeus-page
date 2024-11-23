@@ -1,16 +1,8 @@
 // src/pages/index.js
 import React, { useEffect, useState } from "react";
+import Table from "@/components/Table";
 
 export default function Structure() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch("/api/boards")
-      .then((response) => response.json())
-      .then((data) => setData(data))
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
-
   return (
     <>
       <h1>Structure</h1>
@@ -23,24 +15,8 @@ export default function Structure() {
         Participants by Right (EMSC, EFEHR, ESC, ISC) and appoints members of
         the Executive Committee.
       </p>
-      <table>
-        <thead>
-          <tr>
-            <th>Board</th>
-            <th>Name</th>
-            <th>Role</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((item) => (
-            <tr key={item.id}>
-              <td>{item.name}</td>
-              <td>{item.members}</td>
-              <td>{item.role}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+
+      <Table apiPath="/api/structure" fields={["name", "members", "role"]} />
     </>
   );
 }
