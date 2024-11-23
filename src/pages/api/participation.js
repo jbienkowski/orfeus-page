@@ -1,0 +1,52 @@
+import ApiBase from "@/utils/ApiBase";
+
+const data = [
+  {"country": "Azerbaijan", "institution": "Azerbaijan National Academy of Sciences; Republican Seismic Survey Center"},
+  {"country": "Bulgaria", "institution": "Bulgarian Academy of Sciences; National Institute of Geophysics"},
+  {"country": "Croatia", "institution": "University of Zagreb; Department of Geophysics"},
+  {"country": "Czech Republic", "institution": "Charles University in Prague; Faculty of Mathematics and Physics"},
+  {"country": "Czech Republic", "institution": "Czech Academy of Sciences; Institute of Geophysics"},
+  {"country": "Germany", "institution": "Black Forest Observatory"},
+  {"country": "Germany", "institution": "Christian-Albrecht University of Kiel; Institute for Geosciences"},
+  {"country": "Germany", "institution": "Federal Institute for Geosciences and Natural Resources; Central Seismological Observatory; Geocenter Hannover"},
+  {"country": "Germany", "institution": "Goethe University Frankfurt"},
+  {"country": "Germany", "institution": "Karlsruhe Institute of Technology; Geophysical Institute"},
+  {"country": "Germany", "institution": "Munich University; Geophysical Observatory; Department of Earth and Environmental Sciences"},
+  {"country": "Germany", "institution": "Ruhr University Bochum; Institute of Geology"},
+  {"country": "Germany", "institution": "University of Hamburg; Institute of Geophysics"},
+  {"country": "Germany", "institution": "University of Leipzig"},
+  {"country": "Germany", "institution": "University of Potsdam; Institute of Geosciences"},
+  {"country": "Germany", "institution": "Westfälische-Wilhelms University Münster; Institute for Geophysics"},
+  {"country": "Greece", "institution": "National Observatory of Athens; Institute of Geodynamics"},
+  {"country": "Greece", "institution": "University of Athens; Seismology"},
+  {"country": "Hungary", "institution": "Research Centre for Astronomy and Earth Sciences; Geodetic and Geophysical Institute; Kovesligethy Rado Seismological Observatory"},
+  {"country": "Ireland", "institution": "Dublin Institute of Advanced Studies"},
+  {"country": "Israel", "institution": "Geophysical institute of Israel"},
+  {"country": "Israel", "institution": "Israeli NDC"},
+  {"country": "Italy", "institution": "National Institute of Oceanography and Applied Geophysics - OGS"},
+  {"country": "Italy", "institution": "University of Trieste; Department of Earth Sciences"},
+  {"country": "Malta", "institution": "University of Malta; Geosciences"},
+  {"country": "Netherlands", "institution": "University of Utrecht; Seismology"},
+  {"country": "North Macedonia", "institution": "Seismological Observatory"},
+  {"country": "Poland", "institution": "Polish Academy of Sciences; Institute of Geophysics"},
+  {"country": "Portugal", "institution": "Instituto Superior Tecnico in Lisbon"},
+  {"country": "Portugal", "institution": "University of Lisbon; Faculty of Sciencies"},
+  {"country": "Serbia", "institution": "Seismological Survey"},
+  {"country": "Slovakia", "institution": "Earth Science Institute; Slovak Academy of Sciences"},
+  {"country": "Slovenia", "institution": "Slovenian Environmental Agency ARSO"},
+  {"country": "Spain", "institution": "Cartographic and Geological Institute of Catalunya"},
+  {"country": "Spain", "institution": "Complutense University Madrid"},
+  {"country": "Spain", "institution": "Geo3Bcn-CSIC"},
+  {"country": "Spain", "institution": "National Geographical Institute"},
+  {"country": "Spain", "institution": "Royal Observatory of the Army"},
+  {"country": "Spain", "institution": "University of Barcelona; Faculty of Geology; Department of Geodynamics and Geophysics"},
+  {"country": "UK", "institution": "AWE Blacknest"},
+  {"country": "UK", "institution": "University of Edinburgh; School of GeoSciences"},
+  {"country": "UK", "institution": "University of Leicester; School of Geography"}
+];
+
+const handler = new ApiBase(data);
+
+export default function endpointHandler(req, res) {
+  return handler.handle(req, res);
+}

@@ -1,5 +1,5 @@
 // src/pages/index.js
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Table from "@/components/Table";
 
 export default function Structure() {

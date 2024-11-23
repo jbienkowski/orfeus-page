@@ -1,7 +1,9 @@
-export default async function handler(req, res) {
-    const data = [
-        {"name": "ODC", "url": "https://orfeus-eu.org"}
-    ]
+import ApiBase from "@/utils/ApiBase";
 
-    res.status(200).json(data)
-  }
+const data = [{ name: "ODC", url: "https://orfeus-eu.org" }];
+
+const handler = new ApiBase(data);
+
+export default function endpointHandler(req, res) {
+  return handler.handle(req, res);
+}

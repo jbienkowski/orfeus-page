@@ -1,61 +1,65 @@
-export default async function handler(req, res) {
-  const data = [
-    {
-      name: "ORFEUS Board of Directors (BoD)",
-      role: "Chair",
-      members: "Anastasia Kiratzi",
-    },
-    {
-      name: "ORFEUS Executive Committee (ExeCom)",
-      role: "President",
-      members: "Susana Custodio",
-    },
-    {
-      name: "ORFEUS Secretary General (SG)",
-      role: "Secretary General",
-      members: "Carlo Cauzzi",
-    },
-    {
-      name: "ORFEUS Data Center (ODC)",
-      role: "Director",
-      members: "Reinoud Sleeman",
-    },
-    {
-      name: "User Advisory Group (UAG)",
-      role: "Chair",
-      members: "Petr Kolinsky",
-    },
-    {
-      name: "Board of Participants (BoP)",
-      role: "Members",
-      members: "",
-    },
-    {
-      name: "Members of the EIDA SMC Management Board (EMB)",
-      role: "Chair",
-      members: "Christos Evangelidis",
-    },
-    {
-      name: "Members of the Infrastructure Development Group (IDG) - EIDA",
-      role: "Chair",
-      members: "Jonathan Schaeffer",
-    },
-    {
-      name: "Members of the SM SMC Management Board",
-      role: "Co-chairs",
-      members: "John Clinton, Lucia Luzi",
-    },
-    {
-      name: "Members of the Infrastructure Development Group (IDG) - SM",
-      role: "Members",
-      members: "",
-    },
-    {
-      name: "Members of the MP SMC Management Board",
-      role: "Co-chairs",
-      members: "C. Haberland, W. Crawford",
-    },
-  ];
+import ApiBase from "@/utils/ApiBase";
 
-  res.status(200).json(data);
+const data = [
+  {
+    name: "ORFEUS Board of Directors (BoD)",
+    role: "Chair",
+    members: "Anastasia Kiratzi",
+  },
+  {
+    name: "ORFEUS Executive Committee (ExeCom)",
+    role: "President",
+    members: "Susana Custodio",
+  },
+  {
+    name: "ORFEUS Secretary General (SG)",
+    role: "Secretary General",
+    members: "Carlo Cauzzi",
+  },
+  {
+    name: "ORFEUS Data Center (ODC)",
+    role: "Director",
+    members: "Reinoud Sleeman",
+  },
+  {
+    name: "User Advisory Group (UAG)",
+    role: "Chair",
+    members: "Petr Kolinsky",
+  },
+  {
+    name: "Board of Participants (BoP)",
+    role: "Members",
+    members: "",
+  },
+  {
+    name: "Members of the EIDA SMC Management Board (EMB)",
+    role: "Chair",
+    members: "Christos Evangelidis",
+  },
+  {
+    name: "Members of the Infrastructure Development Group (IDG) - EIDA",
+    role: "Chair",
+    members: "Jonathan Schaeffer",
+  },
+  {
+    name: "Members of the SM SMC Management Board",
+    role: "Co-chairs",
+    members: "John Clinton, Lucia Luzi",
+  },
+  {
+    name: "Members of the Infrastructure Development Group (IDG) - SM",
+    role: "Members",
+    members: "",
+  },
+  {
+    name: "Members of the MP SMC Management Board",
+    role: "Co-chairs",
+    members: "C. Haberland, W. Crawford",
+  },
+];
+
+const handler = new ApiBase(data);
+
+export default function endpointHandler(req, res) {
+  return handler.handle(req, res);
 }
