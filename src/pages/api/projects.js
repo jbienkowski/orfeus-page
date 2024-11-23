@@ -2,7 +2,7 @@ import ApiBase from "@/utils/ApiBase";
 
 const data = [
   {
-    name: "Geo-INQUIRE",
+    name: "<a target='_blank' href='http://geo-inquire.eu/'>Geo-INQUIRE</a>",
     years: "2022-2026",
     description:
       "Geosphere INfrastructures for QUestions into Integrated REsearch",

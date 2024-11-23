@@ -35,7 +35,7 @@ const Table = ({ apiPath, fields }) => {
                       <td
                         key={`${field.key}-${itemIndex}-${fieldIndex}`}
                         className="px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-neutral-200">
-                        {item[field]}
+                        <div dangerouslySetInnerHTML={{ __html: item[field] }} />
                       </td>
                     ))}
                   </tr>
