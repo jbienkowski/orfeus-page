@@ -1,6 +1,7 @@
 // src/pages/index.js
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Table from "@/components/Table";
+import data from "@/data/structure.json";
 
 export default function Structure() {
   return (
@@ -16,7 +17,7 @@ export default function Structure() {
         the Executive Committee.
       </p>
 
-      <Table apiPath="/api/structure" fields={["name", "members", "role"]} />
+      <Table data={data} fields={["name", "members", "role"]} />
     </>
   );
 }

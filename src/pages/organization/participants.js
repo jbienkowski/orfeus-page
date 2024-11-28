@@ -1,6 +1,7 @@
 // src/pages/index.js
 import React from "react";
 import Table from "@/components/Table";
+import data from "@/data/participants.json";
 
 export default function Participants() {
   return (
@@ -39,7 +40,7 @@ export default function Participants() {
         <li>Approve contracts with other organisations.</li>
       </ul>
 
-      <Table apiPath="/api/participants" fields={["country", "institution"]} />
+      <Table data={data} fields={["name", "country", "type"]} />
     </>
   );
 }

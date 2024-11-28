@@ -1,6 +1,7 @@
 // src/pages/index.js
 import React from "react";
 import Table from "@/components/Table";
+import data from "@/data/participation.json";
 
 export default function Participation() {
   return (
@@ -15,7 +16,7 @@ export default function Participation() {
         Secretary General, to be reported to the ExeCom and BoD.
       </p>
 
-      <Table apiPath="/api/participation" fields={["country", "institution"]} />
+      <Table data={data} fields={["country", "institution"]} />
     </>
   );
 }

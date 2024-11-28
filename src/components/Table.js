@@ -1,15 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Table = ({ apiPath, fields }) => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch(apiPath)
-      .then((response) => response.json())
-      .then((data) => setData(data))
-      .catch((error) => console.error("Error fetching data:", error));
-  }, [apiPath]);
-
+const Table = ({ data, fields }) => {
   return (
     <div className="flex flex-col">
       <div className="-m-1.5 overflow-x-auto">

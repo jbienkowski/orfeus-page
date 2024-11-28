@@ -1,6 +1,4 @@
-import ApiBase from "@/utils/ApiBase";
-
-const data = [
+[
   {"country": "Azerbaijan", "institution": "Azerbaijan National Academy of Sciences; Republican Seismic Survey Center"},
   {"country": "Bulgaria", "institution": "Bulgarian Academy of Sciences; National Institute of Geophysics"},
   {"country": "Croatia", "institution": "University of Zagreb; Department of Geophysics"},
@@ -43,10 +41,4 @@ const data = [
   {"country": "UK", "institution": "AWE Blacknest"},
   {"country": "UK", "institution": "University of Edinburgh; School of GeoSciences"},
   {"country": "UK", "institution": "University of Leicester; School of Geography"}
-];
-
-const handler = new ApiBase(data);
-
-export default function endpointHandler(req, res) {
-  return handler.handle(req, res);
-}
+]
