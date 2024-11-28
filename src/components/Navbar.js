@@ -160,6 +160,12 @@ export default function Navbar() {
 
                     <Link
                       className="py-1.5 px-2 flex items-center text-sm text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
+                      href="/organization/nodes">
+                      Nodes
+                    </Link>
+
+                    <Link
+                      className="py-1.5 px-2 flex items-center text-sm text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500 dark:text-neutral-200 dark:hover:text-neutral-500 dark:focus:text-neutral-500"
                       href="/organization/projects">
                       Projects
                     </Link>

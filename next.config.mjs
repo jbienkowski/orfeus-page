@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // basePath: '/orfeus',
+  basePath: '/orfeus',
   trailingSlash: true,
-  // output: "export",
+  output: "export",
 };
 
 export default nextConfig;

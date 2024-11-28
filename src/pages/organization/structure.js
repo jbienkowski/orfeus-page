@@ -1,5 +1,4 @@
 // src/pages/index.js
-import React, { useEffect, useState } from "react";
 import Table from "@/components/Table";
 import data from "@/data/structure.json";
 

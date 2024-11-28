@@ -40,7 +40,7 @@ export default function Participants() {
         <li>Approve contracts with other organisations.</li>
       </ul>
 
-      <Table data={data} fields={["name", "country", "type"]} />
+      <Table data={data} fields={["country", "institution"]} />
     </>
   );
 }

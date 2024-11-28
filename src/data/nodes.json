@@ -1,0 +1,120 @@
+[
+    {
+      "node_code": "BGR",
+      "node_description": "Bundesanstalt f\u00fcr Geowissenschaften und Rohstoffe",
+      "node_url_base": "eida.bgr.de",
+      "node_url_dataselect": "https://eida.bgr.de/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://eida.bgr.de/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://eida.bgr.de/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "BGS",
+      "node_description": "British Geological Survey",
+      "node_url_base": "eida.bgs.ac.uk",
+      "node_url_dataselect": "https://eida.bgs.ac.uk/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://eida.bgs.ac.uk/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://eida.bgs.ac.uk/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "ETHZ",
+      "node_description": "ETH Zurich Schweizerischer Erdbebendienst (SED)",
+      "node_url_base": "eida.ethz.ch",
+      "node_url_dataselect": "https://eida.ethz.ch/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://eida.ethz.ch/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://eida.ethz.ch/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "GFZ",
+      "node_description": "Helmholz-Zentrum Potsdam",
+      "node_url_base": "geofon.gfz-potsdam.de",
+      "node_url_dataselect": "https://geofon.gfz-potsdam.de/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://geofon.gfz-potsdam.de/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://geofon.gfz-potsdam.de/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "ICGC",
+      "node_description": "Institut Cartogràfic i Geològic de Catalunya",
+      "node_url_base": "ws.icgc.cat",
+      "node_url_dataselect": "https://ws.icgc.cat/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://ws.icgc.cat/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://ws.icgc.cat/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "INGV",
+      "node_description": "Istituto Nazionale di Geofisica e Vulcanologia",
+      "node_url_base": "webservices.ingv.it",
+      "node_url_dataselect": "https://webservices.ingv.it/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://webservices.ingv.it/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://webservices.ingv.it/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "KOERI",
+      "node_description": "Kandilli Observatory and Earthquake Research Institute",
+      "node_url_base": "eida.koeri.boun.edu.tr",
+      "node_url_dataselect": "https://eida.koeri.boun.edu.tr/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://eida.koeri.boun.edu.tr/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://eida.koeri.boun.edu.tr/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "LMU",
+      "node_description": "Ludwig Maximilians Universitat Munchen",
+      "node_url_base": "erde.geophysik.uni-muenchen.de",
+      "node_url_dataselect": "https://erde.geophysik.uni-muenchen.de/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://erde.geophysik.uni-muenchen.de/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://erde.geophysik.uni-muenchen.de/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "NIEP",
+      "node_description": "National Institute for Earth Physics",
+      "node_url_base": "eida-sc3.infp.ro",
+      "node_url_dataselect": "https://eida-sc3.infp.ro/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://eida-sc3.infp.ro/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://eida-sc3.infp.ro/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "NOA",
+      "node_description": "National Observatory of Athens",
+      "node_url_base": "eida.gein.noa.gr",
+      "node_url_dataselect": "https://eida.gein.noa.gr/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://eida.gein.noa.gr/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://eida.gein.noa.gr/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "ODC",
+      "node_description": "ORFEUS Data Center",
+      "node_url_base": "orfeus-eu.org",
+      "node_url_dataselect": "https://orfeus-eu.org/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://orfeus-eu.org/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://orfeus-eu.org/eidaws/wfcatalog/1/query?",
+      "node_url_routing": "https://orfeus-eu.org/eidaws/routing/1/query?"
+    },
+    {
+      "node_code": "RESIF",
+      "node_description": "Reseau Sismologique & Geodesique Francais",
+      "node_url_base": "ws.resif.fr",
+      "node_url_dataselect": "https://ws.resif.fr/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://ws.resif.fr/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://ws.resif.fr/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    },
+    {
+      "node_code": "UIB",
+      "node_description": "University of Bergen",
+      "node_url_base": "eida.geo.uib.no",
+      "node_url_dataselect": "https://eida.geo.uib.no/fdsnws/dataselect/1/query?",
+      "node_url_station": "https://eida.geo.uib.no/fdsnws/station/1/query?",
+      "node_url_wfcatalog": "https://eida.geo.uib.no/eidaws/wfcatalog/1/query?",
+      "node_url_routing": null
+    }
+  ]
+  
