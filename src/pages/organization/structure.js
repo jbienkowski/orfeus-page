@@ -16,7 +16,28 @@ export default function Structure() {
         the Executive Committee.
       </p>
 
-      <Table data={data} fields={["name", "members", "role"]} />
+      <Table
+        thead={
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Members</th>
+              <th>Role</th>
+            </tr>
+          </thead>
+        }
+        tbody={
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.name}>
+                <td>{item.name}</td>
+                <td>{item.members}</td>
+                <td>{item.role}</td>
+              </tr>
+            ))}
+          </tbody>
+        }
+      />
     </>
   );
 }

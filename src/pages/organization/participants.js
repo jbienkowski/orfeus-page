@@ -40,7 +40,26 @@ export default function Participants() {
         <li>Approve contracts with other organisations.</li>
       </ul>
 
-      <Table data={data} fields={["country", "institution"]} />
+      <Table
+        thead={
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th>Institution</th>
+            </tr>
+          </thead>
+        }
+        tbody={
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.institution}>
+                <td>{item.country}</td>
+                <td>{item.institution}</td>
+              </tr>
+            ))}
+          </tbody>
+        }
+      />
     </>
   );
 }

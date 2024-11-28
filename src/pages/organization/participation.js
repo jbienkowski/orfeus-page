@@ -16,7 +16,26 @@ export default function Participation() {
         Secretary General, to be reported to the ExeCom and BoD.
       </p>
 
-      <Table data={data} fields={["country", "institution"]} />
+      <Table
+        thead={
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th>Institution</th>
+            </tr>
+          </thead>
+        }
+        tbody={
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.institution}>
+                <td>{item.country}</td>
+                <td>{item.institution}</td>
+              </tr>
+            ))}
+          </tbody>
+        }
+      />
     </>
   );
 }
