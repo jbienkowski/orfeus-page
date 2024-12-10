@@ -1,11 +1,12 @@
 // src/pages/index.js
 import React from "react";
 import Table from "@/components/Table";
+import Prose from "@/components/Prose";
 import data from "@/data/participants.json";
 
 export default function Participants() {
   return (
-    <>
+    <Prose>
       <h1>ORFEUS Core Participants</h1>
 
       <p>
@@ -60,6 +61,6 @@ export default function Participants() {
           </tbody>
         }
       />
-    </>
+    </Prose>
   );
 }

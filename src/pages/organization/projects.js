@@ -1,12 +1,13 @@
 // src/pages/index.js
 import React from "react";
 import Table from "@/components/Table";
+import Prose from "@/components/Prose";
 import projects_ongoing from "@/data/projects_ongoing.json";
 import projects_finalized from "@/data/projects_finalized.json";
 
 export default function Projects() {
   return (
-    <>
+    <Prose>
       <h1>Core projects involving ORFEUS</h1>
       <h2>Ongoing projects</h2>
       <Table
@@ -53,7 +54,7 @@ export default function Projects() {
             ))}
           </tbody>
         }
-      />{" "}
-    </>
+      />
+    </Prose>
   );
 }

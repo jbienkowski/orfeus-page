@@ -1,43 +1,45 @@
 // src/pages/index.js
 import Table from "@/components/Table";
 import data from "@/data/structure.json";
+import Prose from "@/components/Prose";
 
 export default function Structure() {
   return (
     <>
-      <h1>Structure</h1>
+      <Prose>
+        <h1>Organization Structure</h1>
+        <p>
+          ORFEUS is a non-profit foundation that coordinates and promotes
+          digital, broadband seismology in the European-Mediterranean area. The
+          ORFEUS organization consists of a board of directors, a scientific
+          advisory committee, and a number of working groups. The ORFEUS
+          Secretariat is hosted by the Royal Netherlands Meteorological
+          Institute (KNMI) in De Bilt, The Netherlands.
+        </p>
 
-      <p>
-        ORFEUS (Observatories and Research Facilities for EUropean Seismology)
-        is a non-profit foundation under Dutch law and is directed by an
-        international Board of Directors and its Executive Committee. The Board
-        of Directors consists of representatives of the Core Participants and
-        Participants by Right (EMSC, EFEHR, ESC, ISC) and appoints members of
-        the Executive Committee.
-      </p>
-
-      <Table
-        thead={
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Members</th>
-              <th>Role</th>
-            </tr>
-          </thead>
-        }
-        tbody={
-          <tbody>
-            {data.map((item) => (
-              <tr key={item.name}>
-                <td>{item.name}</td>
-                <td>{item.members}</td>
-                <td>{item.role}</td>
+        <Table
+          thead={
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Members</th>
+                <th>Role</th>
               </tr>
-            ))}
-          </tbody>
-        }
-      />
+            </thead>
+          }
+          tbody={
+            <tbody>
+              {data.map((item) => (
+                <tr key={item.name}>
+                  <td>{item.name}</td>
+                  <td>{item.members}</td>
+                  <td>{item.role}</td>
+                </tr>
+              ))}
+            </tbody>
+          }
+        />
+      </Prose>
     </>
   );
 }

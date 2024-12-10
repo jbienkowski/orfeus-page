@@ -1,11 +1,12 @@
 // src/pages/index.js
 import React from "react";
 import Table from "@/components/Table";
+import Prose from "@/components/Prose";
 import data from "@/data/participation.json";
 
 export default function Participation() {
   return (
-    <>
+    <Prose>
       <h1>Participation</h1>
 
       <p>
@@ -36,6 +37,6 @@ export default function Participation() {
           </tbody>
         }
       />
-    </>
+    </Prose>
   );
 }
